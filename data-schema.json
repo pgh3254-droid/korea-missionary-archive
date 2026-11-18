@@ -1,0 +1,97 @@
+{
+  "project": "KOREA MISSIONARY ARCHIVE",
+  "version": "1.0",
+  "description": "Person record schema for the Korea missionary visual archive.",
+  "source_policy": "Every factual field must be traceable to a source. Do not infer missing facts.",
+  "fields": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "english": {
+      "type": "string",
+      "required": false
+    },
+    "country": {
+      "type": "string",
+      "required": false
+    },
+    "denom": {
+      "type": "string",
+      "required": false
+    },
+    "arrival": {
+      "type": "string",
+      "required": false
+    },
+    "life": {
+      "type": "string",
+      "required": false
+    },
+    "region": {
+      "type": "string",
+      "required": false
+    },
+    "work": {
+      "type": "string",
+      "required": false
+    },
+    "file": {
+      "type": "string",
+      "required": false
+    },
+    "pdfpage": {
+      "type": "string",
+      "required": false
+    },
+    "printpage": {
+      "type": "string",
+      "required": false
+    },
+    "status": {
+      "type": "string",
+      "required": false
+    },
+    "bio": {
+      "type": "string",
+      "required": false
+    },
+    "source": {
+      "type": "string",
+      "required": false
+    }
+  },
+  "status_values": [
+    "pending",
+    "verified"
+  ],
+  "source_files": [
+    {
+      "slot": 1,
+      "filename": "내한선교사사전-1-300(1).pdf",
+      "printed_page_range": "1-300",
+      "uploaded": true
+    },
+    {
+      "slot": 2,
+      "filename": "내한선교사사전-301-599.pdf",
+      "printed_page_range": "301-599",
+      "uploaded": true
+    },
+    {
+      "slot": 3,
+      "filename": null,
+      "uploaded": false
+    },
+    {
+      "slot": 4,
+      "filename": null,
+      "uploaded": false
+    },
+    {
+      "slot": 5,
+      "filename": null,
+      "uploaded": false
+    }
+  ]
+}
